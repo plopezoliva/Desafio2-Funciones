@@ -1,4 +1,5 @@
 
+
 //3.1 Modifica la función para que reciba el elemento clickeado de forma de no
 //tener que seleccionarlo nuevamente dentro de la función (1 Punto). Para
 //obtener el puntaje debes entregar el 3 pintar.html válido funcionando en

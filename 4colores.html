@@ -17,6 +17,7 @@
         colorGlobal = ""
 
     document.addEventListener('keydown', function (event) {
+        console.log(event.key)
     if (event.key === 'a') {
     /* Cambiar color  */
     colorGlobal = "yellow"
@@ -30,15 +31,27 @@
     })
 
 function cambiarColor(elem){
-    elem.style.back = colorGlobal
+    elem.style.backgroundColor = colorGlobal
 }
-document.addEventListener('click', function(){
-    
+document.getElementById('color1').addEventListener('click', function(){
+ele= document.getElementById('color1');
+ele.style.backgroundColor= colorGlobal
+
 })
 
+document.getElementById('color2').addEventListener('click', function(){
+ele= document.getElementById('color2');
+ele.style.backgroundColor= colorGlobal
+})
 
-
-
+document.getElementById('color3').addEventListener('click', function(){
+ele= document.getElementById('color3');
+ele.style.backgroundColor= colorGlobal
+})
+document.getElementById('color4').addEventListener('click', function(){
+ele= document.getElementById('color4');
+ele.style.backgroundColor= colorGlobal
+})
     </script>
 </body>
 </html>
