@@ -1,9 +1,3 @@
-// function pintar(){
-// ele = document.getElementById("ele1")
-// ele.style.backgroundColor = 'yellow'
-// }
-// ele = document.getElementById("ele1")
-// ele.addEventListener("click", pintar);
 
 //3.1 Modifica la función para que reciba el elemento clickeado de forma de no
 //tener que seleccionarlo nuevamente dentro de la función (1 Punto). Para
