@@ -8,7 +8,7 @@
 function pintar(elem){
 ele.style.backgroundColor = 'yellow'
 }
-ele = document.getElementById("ele1")
+let ele = document.getElementById("ele1")
 ele.addEventListener("click", pintar, ele);
     
 
